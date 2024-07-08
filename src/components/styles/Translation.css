@@ -1,0 +1,91 @@
+.translation-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 800px; 
+  margin: auto;
+  position: relative;
+  padding-top: 10%;
+}
+
+.all{
+  width: 100vw;
+  height: 100vh;
+  background-color: #d1edf9;
+}
+
+h1 {
+  color: #4a90e2;
+  text-align: center;
+}
+
+.translation-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  color: #4a90e2;
+}
+
+select,
+textarea {
+  padding: 10px;
+  border: 2px solid #4a90e2;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.translate-button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.translate-button:hover {
+  background-color: #357ab8;
+}
+
+.translated-text {
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid #4a90e2;
+  border-radius: 5px;
+}
+
+.translated-text h2 {
+  color: #4a90e2;
+}
+
+.translated-text p {
+  font-size: 1.2em;
+}
+
+.translation-container {
+  position: relative; 
+}
+
+.back-home {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}

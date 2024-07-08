@@ -1,0 +1,173 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+#title {
+  padding-bottom: 5%;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: #ffffff;
+}
+
+#subTitle {
+  font-weight: lighter;
+  color: #ffffff;
+}
+
+.sign-up {
+  background-color: #4a90e2;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.sign-up h2{
+  padding-bottom: 20px;
+}
+
+.progress-bar {
+  width: 80%;
+  margin: 20px 0;
+}
+
+.language-options {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 20px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.language-options button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: 1px solid #4a90e2;
+  border-radius: 15px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.enlarge {
+  transform: scale(1.5);
+}
+
+.language-options button:hover {
+  background-color: #76c7c0;
+}
+
+.lang-Fr {
+  background-image: url("../images/french.png");
+}
+
+.lang-En {
+  background-image: url("../images/brits.jpeg");
+}
+
+.lang-Sp {
+  background-image: url("../images/spain.png");
+}
+
+.lang-Ge {
+  background-image: url("../images/germans.png");
+}
+
+.lang-Eg {
+  background-image: url("../images/egypt.png");
+}
+
+.lang-Ru {
+  background-image: url("../images/russian.png");
+}
+
+.lang-Tu {
+  background-image: url("../images/turk.png");
+}
+
+.lang-Ha {
+  background-image: url("../images/haiti.png");
+}
+
+.lang-Ja {
+  background-image: url("../images/jap.png");
+}
+
+.proficiency-options {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+  transform: rotate(-10deg); 
+  
+}
+
+.proficiency-button {
+  padding: 30px 40px;
+  border: 1px solid #4a90e2;
+  border-radius: 10px;
+  background-color: #f3a4a4;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  transform: rotate(10deg); 
+}
+
+.proficiency-button.enlarge {
+  transform: scale(1.5);
+}
+
+.proficiency-button:hover {
+  background-color: #76c7c0;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.button-group button {
+  outline: none;
+  padding: 10px 20px;
+  border: 1px solid #4a90e2;
+  border-radius: 5px;
+  background-color: #aba3a3;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button-group button:hover {
+  background-color: #76c7c0;
+}
+
+.button-group .disabled-button {
+  background-color: #aba3a3;
+  cursor: not-allowed;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.input-group input {
+  padding: 10px;
+  border: 1px solid #4a90e2;
+  border-radius: 5px;
+  background-color: #fff;
+}

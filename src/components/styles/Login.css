@@ -1,0 +1,102 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+#titre {
+  font-weight: bolder;
+  font-size: xx-large;
+  color: #d59f1f;
+}
+
+.login-container {
+  background-color: #4a90e2;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.login-box {
+  width: 300px;
+  padding: 40px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.input-group input {
+  padding: 10px;
+  border: 1px solid #4a90e2;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+#back-Up {
+  background-color: #bbb3b3;
+  color: #fff;
+  text-decoration: none;
+}
+#login-button{
+  background-color: #bbb3b3;
+  text-decoration: none;
+
+}
+
+.button-group button {
+  padding: 10px 20px;
+  border: 1px solid #4a90e2;
+  border-radius: 5px;
+  background-color: #1d1b1b;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.button-group button:hover {
+  background-color: #76c7c0;
+}
+
+.button-group .disabled-button {
+  background-color: #a0a0a0;
+  cursor: not-allowed;
+}
+
+.signup-link {
+  margin-top: 10px;
+}
+
+.signup-link a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: none;
+}

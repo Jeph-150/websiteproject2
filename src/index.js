@@ -1,21 +1,31 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+import ReactDOM from 'react-dom';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Login from './components/Login';
+import SignUp from './components/SignUp';
+import LandingPage from './components/LandingPage';
+import HomePage from './components/HomePage';
+import Translation from './components/Translation';
+import Communicate from './components/Communicate';
+import Challenge from './components/Challenge';
 
-function HelloWorld() {
-  return <h1 className="greeting">Hello, world!</h1>;
-}
+ReactDOM.render(
+  <Router>
+    <Routes>
+      <Route path='/' element={<App/>} />
+      <Route path='/login' element={<Login/>}/>
+      <Route path='/signup' element={<SignUp/>}/>
+      <Route path='/backUp' element={<LandingPage/>}/>
+      <Route path='/log' element={<HomePage/>}/>
+      <Route path='/finish' element={<HomePage/>}/>
+      <Route path='/translate' element={<Translation/>}/>
+      <Route path='/goBack' element={<HomePage/>}/>
+      <Route path='/backOut' element={<LandingPage/>}/>
+      <Route path='/communicate' element={<Communicate/>}/>
+      <Route path='/challenge' element={<Challenge/>}/>
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    </Routes>
+  </Router>,
+  document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
