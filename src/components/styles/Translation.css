@@ -1,18 +1,20 @@
+.all {
+  width: 100vw;
+  height: 100vh;
+  background-color: #d1edf9;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+}
+
 .translation-container {
   background-color: #ffffff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 800px; 
-  margin: auto;
+  width: 800px;
   position: relative;
-  padding-top: 10%;
-}
-
-.all{
-  width: 100vw;
-  height: 100vh;
-  background-color: #d1edf9;
+  padding-top: 10%; 
 }
 
 h1 {
@@ -80,12 +82,25 @@ textarea {
   font-size: 1.2em;
 }
 
-.translation-container {
-  position: relative; 
-}
-
 .back-home {
   position: absolute;
   top: 20px;
   left: 20px;
+}
+
+.language-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px; 
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.language-toggle:hover {
+  background-color: #357ab8;
 }

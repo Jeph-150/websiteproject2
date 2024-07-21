@@ -84,7 +84,7 @@ nav a:hover {
 .intro-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: calc(100vh - 80px); /* Adjust height to account for the navbar */
+  height: calc(100vh - 80px); 
   padding: 3rem calc((100vw - 1300px) / 2);
 }
 
@@ -305,7 +305,6 @@ footer {
   margin: 0 5px;
 }
 
-/* Responsive design for footer */
 @media screen and (max-width: 768px) {
   .footer-container {
     flex-direction: column;

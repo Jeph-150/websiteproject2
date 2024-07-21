@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
-import './styles/Challenge.css'; // Importing the CSS file
+import { Link } from 'react-router-dom'; 
+import './styles/Challenge.css'; 
 
 const Challenge = () => {
   const [word, setWord] = useState('');
@@ -30,7 +30,7 @@ const Challenge = () => {
           <p>Translation: {trans}</p>
         </>
       )}
-      <Link to="/goBack" className="home-button">Back to Home</Link>
+      <Link to="/goBack" className="home-btn">Back to Home</Link>
     </div>
   );
 };

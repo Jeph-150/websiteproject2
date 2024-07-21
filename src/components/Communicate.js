@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import './styles/Communicate.css'; // Make sure to create this CSS file
+import './styles/Communicate.css'; 
+import { Link } from 'react-router-dom'; 
 
 const Forum = () => {
   const [posts, setPosts] = useState([
@@ -86,8 +87,10 @@ const Forum = () => {
             placeholder="Add a comment..."
           />
           <button type="submit" className="comment-submit-button">Post Comment</button>
+          <Link to="/goBack" className="home-button">Go back</Link>
         </form>
       </div>
+      
     </div>
   );
 };

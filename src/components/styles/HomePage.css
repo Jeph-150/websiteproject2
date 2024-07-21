@@ -1,4 +1,3 @@
-/* Reset default margin and padding */
 body, html {
   margin: 0;
   padding: 0;
@@ -10,12 +9,12 @@ body, html {
 
 .corner-image {
   position: absolute;
-  top: 400px; /* Adjust as needed */
-  right: 10px; /* Adjust as needed */
+  top: 400px; 
+  right: 10px; 
 }
 
 #bts {
-  background-color: #e3e9ef;
+  background-color: #ffcc00;
   color: #17191a;
 }
 
